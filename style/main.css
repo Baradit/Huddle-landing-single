@@ -41,22 +41,29 @@ img {
   color: #674baf;
 }
 
+@media (min-width: 48rem) {
+  body {
+    background-image: url(/images/bg-desktop.svg);
+    background-position: 5% 100%;
+  }
+}
+
 .hero header {
   width: 8rem;
   margin-bottom: 3.5rem;
 }
 
 .hero__container {
-  padding: 1.3rem 2.375rem;
+  padding: 2.05rem 2.375rem;
 }
 
 .hero__img {
-  margin-bottom: 3.4rem;
+  margin-bottom: 3.5rem;
 }
 
 .hero__content {
   text-align: center;
-  margin-bottom: 3.7rem;
+  margin-bottom: 3.8rem;
 }
 
 .hero__content p {
@@ -84,6 +91,7 @@ img {
 }
 
 .hero__social {
+  padding-bottom: 0.4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,6 +118,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
 }
 
 .hero__social-item:hover {
@@ -119,5 +128,65 @@ img {
 
 .hero__social-item i {
   font-size: 0.9rem;
+}
+
+@media (min-width: 48rem) {
+  .hero__container {
+    padding: 4rem 5rem;
+    padding-bottom: 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .hero__container header {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .hero__container header img {
+    width: 12rem;
+  }
+  .hero__img, .hero__content {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .hero__content {
+    padding-top: 3rem;
+    padding-left: 3.875rem;
+    text-align: left;
+    font-size: 1.125rem;
+  }
+  .hero__content h1 {
+    width: 80%;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+  .hero__content p {
+    width: 90%;
+    padding: 1.5rem 0;
+    line-height: 1.8rem;
+  }
+  .hero__content button {
+    font-size: inherit;
+    padding: 1rem 4rem;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .hero__social {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    gap: 0.875rem;
+  }
+  .hero__social-item {
+    width: 45px;
+    height: 45px;
+  }
+  .hero__social-item i {
+    font-size: 1.1rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

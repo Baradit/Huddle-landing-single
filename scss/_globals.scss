@@ -20,6 +20,7 @@ body {
     color: #fff;
 }
 
+
 a, a:visited, a:hover {
     text-decoration: none;
     color: inherit;
@@ -38,4 +39,12 @@ img {
 .attribution {
     background: #fff;
     color: $violet;
+}
+
+// Media queries for body 
+@media (min-width: 48rem) {
+    body {
+        background-image: url(/images/bg-desktop.svg);
+        background-position: 5% 100%;
+    }
 }
