@@ -1,0 +1,123 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(/images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #674baf;
+  color: #fff;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+}
+
+.attribution {
+  background: #fff;
+  color: #674baf;
+}
+
+.hero header {
+  width: 8rem;
+  margin-bottom: 3.5rem;
+}
+
+.hero__container {
+  padding: 1.3rem 2.375rem;
+}
+
+.hero__img {
+  margin-bottom: 3.4rem;
+}
+
+.hero__content {
+  text-align: center;
+  margin-bottom: 3.7rem;
+}
+
+.hero__content p {
+  padding: 1rem 0;
+  line-height: 1.5rem;
+}
+
+.hero__content button {
+  font-family: "Poppins", sans-serif;
+  margin-top: 0.5rem;
+  padding: 0.6rem 4.7rem;
+  border-radius: 2rem;
+  color: #674baf;
+  font-size: 0.75rem;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.hero__content button:hover {
+  background: #e882e8;
+  color: #fff;
+}
+
+.hero__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.7rem;
+}
+
+.hero__social-item {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero__social-item:hover {
+  color: #e882e8;
+  border: 1px solid #e882e8;
+}
+
+.hero__social-item i {
+  font-size: 0.9rem;
+}
+/*# sourceMappingURL=main.css.map */

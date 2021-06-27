@@ -1,0 +1,41 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1rem; // 18px
+    font-weight: 400;
+    font-family: $openSans;
+    background-image: url(/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $violet;
+    color: #fff;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: $poppins;
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.attribution {
+    background: #fff;
+    color: $violet;
+}

@@ -1,0 +1,70 @@
+.hero {
+    
+    header {
+        width: 8rem;
+        margin-bottom: 3.5rem;
+    }
+
+    &__container {
+        padding: 1.3rem 2.375rem;
+    }
+
+    &__img {
+        margin-bottom: 3.4rem;
+    }
+
+    &__content {
+        text-align: center;
+        margin-bottom: 3.7rem;
+
+        p {
+            padding: 1rem 0;
+            line-height: 1.5rem;
+        }
+
+        button {
+            font-family: $poppins;
+            margin-top: 0.5rem;
+            padding: 0.6rem 4.7rem;
+            border-radius: 2rem;
+            color: $violet;
+            font-size: 0.75rem;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            white-space: nowrap;
+            cursor: pointer;
+
+            &:hover {
+                background: $softMagenta;
+                color: #fff;
+            }
+        }
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.7rem;
+
+
+        &-item {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                color: $softMagenta;
+                border: 1px solid $softMagenta;
+            }
+
+            i {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
