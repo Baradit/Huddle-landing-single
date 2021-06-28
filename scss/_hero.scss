@@ -75,8 +75,13 @@
 
 @media (min-width: 48rem) {
     .hero {
+        height: 100vh;
 
         &__container {
+            background-image: url(/images/bg-desktop.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: -20%;
             max-width: 1440px;
             margin: 0 auto;
             padding: 4rem 5rem;
